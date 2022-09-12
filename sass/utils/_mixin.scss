@@ -1,0 +1,16 @@
+$icons: 'antenna', 'clock', 'diagram', 'astronaut';
+
+@mixin generateIcons($icons) {
+  @each $iconName in $icons {
+    .icon-#{$iconName}::before {
+      background-image: url(../image/#{$iconName}.svg);
+    }
+  }
+}
+
+@mixin fonts($fw, $fs, $lh, $ls) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
