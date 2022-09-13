@@ -34,6 +34,7 @@
 
   @media screen and (min-width: 1200px) {
     width: calc((100% - 90px) / 4);
+    margin-bottom: 0px;
   }
 }
 
@@ -54,7 +55,6 @@
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
-  text-align: center;
 
   @media screen and (min-width: 768px) {
     text-align: start;

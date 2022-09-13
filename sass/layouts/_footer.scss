@@ -1,11 +1,7 @@
 .footer {
   background: rgba(47, 48, 58, 1);
   padding-top: 60px;
-  padding-bottom: 130px;
-
-  @media screen and (min-width: 1200px) {
-    padding-bottom: 60px;
-  }
+  padding-bottom: 60px;
 
   a {
     text-decoration: none;
@@ -56,6 +52,9 @@
 
 .footer-block-wrap {
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
 
 .footer a:hover,

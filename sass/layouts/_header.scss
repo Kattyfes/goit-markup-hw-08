@@ -1,8 +1,13 @@
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
 
   .logo {
     color: #000000;
@@ -85,10 +90,14 @@
   gap: 10px;
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .contacts__icon {
